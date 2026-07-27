@@ -33,10 +33,10 @@ change.
       level)
 - [ ] Configurable offset / fixed instant via agent args or a control endpoint
 
-## 1.4 AWS LightSail Demo Repo — Showcase
+## 1.4 [DONE] AWS LightSail Demo Repo — Showcase 
 
 The AWS LightSail demo repository already exists; this task is about finishing
 its documentation so it is presentable.
 
-- [ ] Complete `README.md` and architectural notes
-- [ ] Add screenshots / diagrams
+- [X] Complete `README.md` and architectural notes
+- [X] Add screenshots / diagrams
