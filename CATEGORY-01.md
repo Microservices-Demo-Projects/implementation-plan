@@ -23,17 +23,17 @@ postures.
 - [ ] **Variant B** — Single shared non-root user for SSH/SFTP; filesystem is
       read-only everywhere except the target Kubernetes volume mount
 
-## 1.3 Instrumentation Agent — Time Travel
+## 1.3 [DONE ✅] Instrumentation Agent — Time Travel
 
 A Java instrumentation agent that lets an application observe fake `Date` /
 `Instant` / `Clock` values (past or future) without any application code
 change.
 
-- [ ] Byte-code time-travel implementation (mock `Date` / `Clock` at the agent
+- [X] Byte-code time-travel implementation (mock `Date` / `Clock` at the agent
       level)
-- [ ] Configurable offset / fixed instant via agent args or a control endpoint
+- [X] Configurable offset / fixed instant via agent args or a control endpoint
 
-## 1.4 [DONE] AWS LightSail Demo Repo — Showcase 
+## 1.4 [DONE ✅] AWS LightSail Demo Repo — Showcase 
 
 The AWS LightSail demo repository already exists; this task is about finishing
 its documentation so it is presentable.
