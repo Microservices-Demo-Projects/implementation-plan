@@ -13,14 +13,14 @@ automated backup / restore.
 - [ ] Async Lambda automation for restoring DynamoDB data from S3 backups
 - [ ] CD pipeline for deployment automation
 
-## 1.2 SFTP Server Implementation & Containerization
+## 1.2 [DONE ✅] SFTP Server Implementation & Containerization
 
 Two container images of the same SFTP server that show two different security
 postures.
 
-- [ ] **Variant A** — Multi-user SSH/SFTP with per-user chroot-jail directories;
+- [X] **Variant A** — Multi-user SSH/SFTP with per-user chroot-jail directories;
       the SFTP daemon itself runs as `root`
-- [ ] **Variant B** — Single shared non-root user for SSH/SFTP; filesystem is
+- [X] **Variant B** — Single shared non-root user for SSH/SFTP; filesystem is
       read-only everywhere except the target Kubernetes volume mount
 
 ## 1.3 [DONE ✅] Instrumentation Agent — Time Travel
